@@ -1,16 +1,12 @@
 
 A beautiful hospital landing page built with React JS
 
-<<<<<<< HEAD
-![الصفحة الرئيسية](public/screenshots/screenshot.png)
-
-# Hospital Landing Page 🏥
-
+## 📸 صور من الموقع
 واجهة موقع احترافية لتقديم الخدمات الطبية بشكل أنيق ومبسط باستخدام React و Firebase.
 
----
 
-## 📸 صور من الموقع
+![Home](public/screenshots/screenshot.png)
+
 
 ### 🩺 قسم الخدمات (Services)
 ![Services](public/screenshots/service.PNG)
