@@ -2,7 +2,6 @@
 
 A beautiful hospital landing page built with React JS
 
-![screenshot](/screenshot.png)
 
 ## Tech Stack
 
