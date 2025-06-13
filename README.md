@@ -10,7 +10,6 @@ A beautiful hospital landing page built with React JS
 
 =======
 
-![الصفحة الخدمات](public/screenshots/service.png)
 
 
 >>>>>>> 851d33b343299843d189be7413707972286a9dc7
