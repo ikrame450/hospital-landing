@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hospital-landing/static/css/main.d17c590b.css",
-    "main.js": "/hospital-landing/static/js/main.d06e3b16.js",
+    "main.js": "/hospital-landing/static/js/main.d2e23496.js",
     "static/media/facility2.jpg": "/hospital-landing/static/media/facility2.4fbce39adb7e5b97a6e3.jpg",
     "static/media/banner-doctor.png": "/hospital-landing/static/media/banner-doctor.e9289d8dc12ea7e79b4f.png",
     "static/media/Dr Steve.jpg": "/hospital-landing/static/media/Dr Steve.21de323f13acb6aae702.jpg",
@@ -36,10 +36,10 @@
     "static/media/roboto-greek-ext-400-normal.woff": "/hospital-landing/static/media/roboto-greek-ext-400-normal.85384e1ce5cc0ef0c609.woff",
     "index.html": "/hospital-landing/index.html",
     "main.d17c590b.css.map": "/hospital-landing/static/css/main.d17c590b.css.map",
-    "main.d06e3b16.js.map": "/hospital-landing/static/js/main.d06e3b16.js.map"
+    "main.d2e23496.js.map": "/hospital-landing/static/js/main.d2e23496.js.map"
   },
   "entrypoints": [
     "static/css/main.d17c590b.css",
-    "static/js/main.d06e3b16.js"
+    "static/js/main.d2e23496.js"
   ]
 }
