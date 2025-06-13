@@ -1,0 +1,51 @@
+
+.register-container {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+background: linear-gradient(to right, #bee6de, #677bd4);  direction: rtl;  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.register-form input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.register-form button {
+  background-color: #1f588d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.register-form button:hover {
+  background-color: #342091;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+.google-login-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.google-login-button:hover {
+  background-color: #3367d6;
+}

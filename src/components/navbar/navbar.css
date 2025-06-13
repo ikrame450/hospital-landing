@@ -1,0 +1,154 @@
+/* ===== NAVBAR STYLE متجاوب واحترافي ===== */
+.navbar-container {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: linear-gradient(to right, #bee6de, #677bd4); /* خلفية متدرجة */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 14px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+  flex-wrap: wrap;
+}
+
+/* شعار الموقع */
+.logo img {
+  width: 120px;
+  cursor: pointer;
+}
+
+/* روابط التنقل */
+.nav-items, .side-nav-items {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* تنسيق الروابط */
+.nav-items h3, .side-nav-items h3 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #010007;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: all 0.3s ease;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-items h3:hover, .side-nav-items h3:hover {
+  background-color: rgba(255, 255, 255, 0.25);
+  transform: translateY(-2px);
+}
+
+/* العنصر النشط */
+.nav-items h3.active, .side-nav-items h3.active {
+  background-color: rgba(255, 255, 255, 0.35);
+}
+
+/* زر خاص */
+.nav-button {
+  padding: 8px 16px;
+  background: linear-gradient(135deg, #4f8dfd, #52c4ff);
+  border: none;
+  color: white;
+  font-weight: 500;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, #407efc, #3db7f4);
+}
+
+
+
+/* روابط بدون خط */
+.nav-items a, .side-nav-items a {
+  text-decoration: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+  .navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar-link {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+
+  .nav-items, .side-nav-items {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .logo img {
+    width: 100px;
+  }
+}
+/* زر البورغر */
+.burger {
+  display: none;
+  font-size: 28px;
+  color: white;
+  cursor: pointer;
+}
+
+/* إخفاء العناصر على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  .nav-items,
+  .side-nav-items {
+    display: none;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .nav-items.open,
+  .side-nav-items.open {
+    display: flex;
+  }
+
+  .navbar-container {
+    align-items: flex-start;
+  }
+}
+
+/* حركة خفيفة */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+

@@ -1,0 +1,91 @@
+.banner-container {
+    display: flex;
+    padding: 50px;
+background: #deeaf8;
+}
+
+.banner-content {
+    padding: 0 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.banner-heading>h2 {
+    font-size: 52px;
+      color: #230da0;
+
+}
+
+.banner-subheading>p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #050505;
+}
+
+.banner-buttons {
+    display: flex;
+    margin: 20px 0 0 10px;
+    gap: 28px;
+}
+
+.banner-buttons>button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner-appointment-button {
+background: linear-gradient(to right, #bee6de, #677bd4);  
+   color: #030303;
+       border: 1px solid #030303;
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.banner-learn-button {
+    color: #070707;
+background: linear-gradient(to right, #bee6de, #677bd4);  
+    border: 1px solid #030303;
+     font-size: 14px;
+  font-weight: bold;
+}
+
+.banner-learn-button:hover {
+    color: #FFF;
+    background-color: #174EB2;
+}
+
+.banner-graphic {
+    width: 100%;
+    position: relative;
+}
+
+
+.banner-graphic>img:first-child {
+    width: 500px;
+}
+
+.banner-graphic>img:last-child {
+    width: 800px;
+    position: absolute;
+    left: -180px;
+}
+.learn-more-btn {
+  background-color: #0288d1;
+  color: white;
+  padding: 12px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  transform: scale(1.05);
+  background-color: #0277bd;
+}
+

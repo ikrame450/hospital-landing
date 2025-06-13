@@ -1,0 +1,58 @@
+.login-container {
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 20px;
+background: linear-gradient(to right, #bee6de, #677bd4);  direction: rtl;  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form input {
+  margin: 12px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.login-form button {
+  background-color: #1f588d;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.login-form button:hover {
+  background-color: #342091;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+.google-login-button {
+  background-color: #4285f4; /* لون أزرق خاص بجوجل */
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.google-login-button:hover {
+  background-color: #3367d6;
+}
+

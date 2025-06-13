@@ -1,0 +1,71 @@
+
+/* src/pages/Booking.css */
+.booking-container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+background: linear-gradient(to right, #bee6de, #677bd4);  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: right;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-form label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.booking-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-top: 5px;
+}
+
+.booking-form button {
+  margin-top: 25px;
+  padding: 14px 20px;
+  background-color: #1f588d;
+  color: white;
+  font-size: 18px; /* حجم متوسط وواضح */
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* مسافة بين الأيقونة والنص */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.booking-form button:hover {
+  background-color: #342091;
+  
+}
+.booking-btn {
+  background-color: #330cc2; /* أخضر جذاب */
+  color: white;
+  padding: 14px 26px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.booking-btn:hover {
+  background-color: #218838; /* أخضر داكن عند التحويم */
+  transform: translateY(-2px);
+}
+

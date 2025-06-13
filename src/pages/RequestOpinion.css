@@ -1,0 +1,119 @@
+
+.request-container {
+  padding: 60px 20px;
+  background-color: #f3fafe;
+  text-align: center;
+  direction: rtl;
+}
+
+.request-container h1 {
+  font-size: 36px;
+  color: #174EB2;
+  margin-bottom: 20px;
+}
+
+.request-container p {
+  font-size: 18px;
+  color: #080808;
+  margin-bottom: 40px;
+}
+
+.request-sections {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.request-box {
+background: linear-gradient(to right, #bee6de, #677bd4);    border-radius: 16px;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  padding: 30px 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.request-box .icon {
+  font-size: 40px;
+  color: #f6f7f8;
+  margin-bottom: 16px;
+}
+
+.request-box h3 {
+  color: #222;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.request-box p {
+  font-size: 16px;
+  color: #030000;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  font-size: 16px;
+  color: #fff;
+  background-color: #174EB2;
+  padding: 12px 24px;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0e3e94;
+}
+.request-form {
+  margin-top: 60px;
+  background: linear-gradient(to right, #bee6de, #677bd4);  
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 600px;
+  margin-inline: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  direction: rtl;
+}
+
+.request-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fdfdfd;
+}
+
+.request-form input,
+.request-form textarea {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.request-form textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #174EB2;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #0e3e94;
+}
+

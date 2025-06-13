@@ -1,0 +1,79 @@
+.doctors-container {
+    position: relative;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #deeaf8;
+
+}
+
+.doctors-container>h3 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+      font-weight: bold;
+  font-size: 2.5rem;
+  color: #230da0;
+}
+
+
+
+.doctors-container>p {
+    text-align: center;
+    color: #000000;
+}
+
+.sphere2, .sphere3 {
+    position: absolute;
+    z-index: -1;
+}
+
+.sphere2 {
+    left: -28px;
+    top: 77px;
+}
+
+.sphere3 {
+    right: 0;
+    top: 250px;
+}
+
+.doctors-wrapper {
+    padding: 44px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 42px;
+    justify-content: center;
+}
+
+.doctors-container>button {
+    padding: 20px 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #174EB2;
+    background-color: #FFF;
+    border: 1px solid #174EB2;
+}
+
+.doctors-container>button:hover {
+    color: #050505;
+    background-color: #174EB2;
+}
+.more-doctors-btn {
+  display: inline-block;
+  margin-top: 40px;
+background: linear-gradient(to right, #bee6de, #575e81);
+  color: rgb(2, 2, 2);
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.more-doctors-btn:hover {
+  background-color: #030351;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}

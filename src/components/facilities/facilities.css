@@ -1,0 +1,79 @@
+.facilities-container {
+  padding: 60px 40px;
+background: #deeaf8;
+  direction: rtl;
+  text-align: center;
+}
+
+.facilities-container > h3 {
+  font-size: 32px;
+  margin-bottom: 40px;
+   font-size: 2.5rem;
+  color: #230da0;
+   text-align: center;
+}
+
+.facilities-horizontal-layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.facility-side-image {
+  width: 300px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.facility-center-text {
+  max-width: 450px;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.facility-center-text h6 {
+  font-size: 22px;
+  color: #010409;
+  margin-bottom: 15px;
+}
+
+.facility-center-text p {
+  font-size: 16px;
+  color: #020202;
+  line-height: 1.7;
+}
+
+.facility-detail-button {
+  margin-top: 20px;
+   text-align: center;
+
+}
+
+.facility-detail-button button {
+   display: inline-block;
+  margin-top: 40px;
+background: linear-gradient(to right, #bee6de, #575e81);
+  color: rgb(2, 2, 2);
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+}
+
+.facility-detail-button button:hover {
+   background-color: #030351;
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+         cursor: pointer;
+
+}
+

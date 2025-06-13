@@ -1,0 +1,67 @@
+.user-messages-container {
+  padding: 2rem;
+  direction: rtl;
+  background-color: #f3fafe;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.user-messages-container h2 {
+  font-size: 1.8rem;
+  margin: 2rem 0 1rem;
+  color: #230da0;
+  text-align: center;
+}
+
+.message-box {
+  background: linear-gradient(to right, #bee6de, #677bd4);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  margin-bottom: 1.5rem;
+  color: #030303;
+}
+
+.message-box p {
+  margin: 0.6rem 0;
+  font-size: 1rem;
+}
+
+.message-box strong {
+  color: #f8fafc;
+}
+
+.message-box button {
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: white;
+}
+
+/* زر التعديل - أخضر */
+.message-box button.edit {
+  background-color: #049c09;
+}
+
+.message-box button.edit:hover {
+  background-color: #044f08;
+}
+
+/* زر الحذف - أحمر */
+.message-box button.delete {
+  background-color: #bb1010;
+}
+
+.message-box button.delete:hover {
+  background-color: #700707;
+}
+
+/* ترتيب الأزرار */
+.message-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 1rem;
+}

@@ -1,0 +1,62 @@
+
+.lab-page {
+  padding: 2rem;
+  direction: rtl;
+  background-color: #f3fafe;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.lab-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.lab-header h1 {
+  font-size: 2.5rem;
+  color: #230da0;
+}
+
+.lab-header p {
+  font-size: 1.2rem;
+  color: #030303;
+}
+
+.lab-content {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.lab-section {
+background: linear-gradient(to right, #bee6de, #677bd4);  direction: rtl;  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.lab-section h2 {
+  color: #080808;
+  margin-bottom: 1rem;
+}
+
+.lab-section ul {
+  list-style: square;
+  padding-right: 1.5rem;
+  color: #030303;
+}
+
+.lab-button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lab-button:hover {
+  background-color: #004d40;
+}

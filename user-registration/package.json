@@ -1,0 +1,8 @@
+{
+  "name": "user-registration",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "firebase": "^11.7.3"
+  }
+}

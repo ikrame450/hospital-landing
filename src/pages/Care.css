@@ -1,0 +1,62 @@
+
+.care-page {
+  padding: 2rem;
+  direction: rtl;
+  background-color: #f3fafe;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.care-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.care-header h1 {
+  font-size: 2.5rem;
+  color: #230da0;
+}
+
+.care-header p {
+  font-size: 1.2rem;
+  color: #030005;
+}
+
+.care-content {
+  display: grid;
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.care-section {
+background: linear-gradient(to right, #bee6de, #677bd4);  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.care-section h2 {
+  color: #000807;
+  margin-bottom: 1rem;
+}
+
+.care-section ul {
+  list-style: square;
+  padding-right: 1.5rem;
+  color: #000007;
+}
+
+.care-button {
+  background-color: #00695c;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.care-button:hover {
+  background-color: #004d40;
+}

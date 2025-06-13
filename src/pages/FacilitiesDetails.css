@@ -1,0 +1,79 @@
+/* الصفحة ككل */
+.facilities-details-page {
+  direction: rtl;
+  text-align: right;
+  padding: 100px 20px;
+  background-color: #f3fafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* ✅ المربع ذو الخلفية المتدرجة */
+.info-box {
+  background: linear-gradient(to right, #bee6de, #677bd4);
+  padding: 30px;
+  border-radius: 16px;
+  max-width: 800px;
+  width: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* تأثير عند التمرير */
+.info-box:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* عنوان */
+.info-box h2 {
+  font-size: 28px;
+  color: #230da0;
+  margin-bottom: 15px;
+}
+
+/* نص الفقرة */
+.info-box p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #050505;
+}
+
+/* زر الرجوع */
+.back-button {
+  margin-top: 30px;
+  background-color: #174eb2;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: #0f3c8e;
+  transform: scale(1.05);
+}
+
+/* ✅ جعل التصميم متجاوبًا */
+@media (max-width: 768px) {
+  .info-box {
+    padding: 20px;
+  }
+
+  .info-box h2 {
+    font-size: 22px;
+  }
+
+  .info-box p {
+    font-size: 16px;
+  }
+
+  .back-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
